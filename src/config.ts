@@ -6,7 +6,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "Blog",
         url: "https://blog.lazy-boy-acmer.cn/",
-        icon: "",
+        icon: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/logo.svg",
         color: "#0171CD",
       },
       {
