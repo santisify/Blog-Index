@@ -1,39 +1,21 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "个人网站",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "Blo",
+        url: "https://blog.lazy-boy-acmer.cn/",
         icon: "",
         color: "#0171CD",
       },
       {
-        title: "主标题",
+        title: "Qexo",
         description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
+        url: "https://qexo.lazy-boy-acmer.cn/",
+        icon: "https://avatars.githubusercontent.com/u/103436983?s=48&v=4",
+      }
     ],
-  },
-  {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
   },
   {
     title: "友情链接",
@@ -48,18 +30,17 @@ const WEBSITE_SORTS: WebsiteSort[] = [
   },
 ];
 
-/** Website 配置（2023.3.29 已废弃） */
 const WEBSITE_ITEMS: WebsiteItem[] = [];
 
 const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "Lazy_boy_的小屋",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.lazy-boy-acmer.cn",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -67,17 +48,17 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/santisify",
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/6C5967B06111924D434A6B4622B14E14.9nzsjnsw42.jpg",
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
-  FOOTER_INFO: true,
+  ICP: "",
+  ICP_URL: "",
+  FOOTER_INFO: false,
   /**
    * 网站欢迎标语
    */
@@ -104,7 +85,7 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
+    title: "Index",
     keywords: "Blog, Index, Index Page",
     description: "This is my personal blog index page.",
   },
