@@ -4,7 +4,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "个人网站",
     sites: [
       {
-        title: "Blo",
+        title: "Blog",
         url: "https://blog.lazy-boy-acmer.cn/",
         icon: "",
         color: "#0171CD",
