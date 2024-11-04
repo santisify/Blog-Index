@@ -11,7 +11,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       },
       {
         title: "Qexo",
-        description: "网站描述",
+        description: "Qexo 是一个快速、强大、美观的在线 静态博客编辑器",
         url: "https://qexo.lazy-boy-acmer.cn/",
         icon: "https://avatars.githubusercontent.com/u/103436983?s=48&v=4",
       }
