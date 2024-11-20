@@ -14,7 +14,13 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         description: "网站描述",
         url: "https://qexo.lazy-boy-acmer.cn/",
         icon: "https://avatars.githubusercontent.com/u/103436983?s=48&v=4",
-      }
+      },
+      {
+        title: "站点监测",
+        description: "",
+        url: "https://stats.uptimerobot.com/FBJ3XDLMuP",
+        icon: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/computer_icon.svg",
+      },
     ],
   },
   {
