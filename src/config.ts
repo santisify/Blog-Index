@@ -17,7 +17,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       },
       {
         title: "站点监测",
-        description: "",
+        description: "监测网站",
         url: "https://stats.uptimerobot.com/FBJ3XDLMuP",
         icon: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/computer_icon.svg",
       },
