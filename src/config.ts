@@ -19,7 +19,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "站点监测",
         description: "监测网站",
         url: "https://stats.uptimerobot.com/FBJ3XDLMuP",
-        icon: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/computer_icon.svg",
+        icon: "assets/uptimerobot-logo.png",
       },
     ],
   },
@@ -50,7 +50,8 @@ const GLOBAL_CONFIG = {
   /**
    * 指定中心 LOGO 图片地址
    */
-  LOGO_URL: null,
+  LOGO_URL:
+    "https://cdn.statically.io/gh/santisify/picx-images-hosting@master/logo.svg",
   /**
    * 个人 Github 链接
    */
@@ -58,7 +59,8 @@ const GLOBAL_CONFIG = {
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://cdn.jsdelivr.net/gh/santisify/picx-images-hosting@master/6C5967B06111924D434A6B4622B14E14.9nzsjnsw42.jpg",
+  BACKGROUND_IMG_URL:
+    "https://cdn.statically.io/gh/santisify/picx-images-hosting@master/6C5967B06111924D434A6B4622B14E14.9nzsjnsw42.jpg",
   /**
    * ICP 备案号，留空不显示
    */
@@ -83,10 +85,6 @@ const GLOBAL_CONFIG = {
    * Website 分类配置
    */
   WEBSITE_SORTS,
-  /**
-   * Website 配置（2023.3.29 已废弃）
-   */
-  WEBSITE_ITEMS,
   /**
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
